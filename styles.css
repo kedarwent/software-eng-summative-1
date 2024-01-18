@@ -6,16 +6,17 @@ body {
     background-color: transparent
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Public Sans';
+h1, h2, h3 {
+    font-family: 'Public Sans', sans-serif;
     color: #732c0b;
     background-color: transparent;
 }
 
-h2 {
+h1 {
+    text-align: center;
+}
+
+h2, h3 {
     text-align: left;
-    font-family: 'Public Sans';
-    color: #732c0b;
-    background-color: transparent;
+    margin: 3%;
 }
