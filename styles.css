@@ -1,15 +1,14 @@
-* {
-    background-color: rgba(207, 255, 105, 0.3);
-}
-
 body {
-    background-color: transparent
-}
+    background-color: rgba(207,255,105,0.3);
+    margin:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;}
 
 h1, h2, h3 {
     font-family: 'Public Sans', sans-serif;
-    color: #732c0b;
     background-color: transparent;
+    color: #732c0b;
 }
 
 h1 {
@@ -18,5 +17,13 @@ h1 {
 
 h2, h3 {
     text-align: left;
-    margin: 3%;
+    margin-left: 3%;
+}
+
+
+#bg-div-2 {
+    background-color: rgba(207,255,105,1);
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
