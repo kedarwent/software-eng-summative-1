@@ -1,29 +1,27 @@
-body {
-    background-color: rgba(207,255,105,0.3);
+body {background-color: rgba(207,255,105,0.3);
     margin:0;
     height: 100%;
     width: 100%;
-    position: absolute;}
+    position: absolute}
 
-h1, h2, h3, p {
-    font-family: 'Public Sans', sans-serif;
-    background-color: transparent;
-    color: #732c0b;
+h1, h2, h3, form, #input-label {
+   font-family: 'Public Sans', sans-serif;
+   background-color: transparent;
+   color: #732c0b;
 }
 
 h1 {
-    text-align: center;
+   text-align: center;
 }
 
-h2, h3, p {
-    text-align: left;
-    margin-left: 3%;
+h2, h3, #input-label{
+   text-align: left;
+   margin-left: 3%;
 }
-
 
 #bg-div-2 {
-    background-color: rgba(207,255,105,1);
-    height: 100%;
-    width: 100%;
-    position: relative;
+   background-color: rgba(207,255,105,1);
+   height: 100%;
+   width: 100%;
+   position: relative;
 }
