@@ -19,6 +19,6 @@ I built the MVP in an incremental manner, working on one issue at a time in the 
 
 ## Test driven development
 
-There was a test-driven development ideology behind the project; I created a test file using JEST to test the main function. 
+There was a test-driven development ideology behind the project; I created a test file using JEST to test whether the main function handled negative values as expected.
 
 
