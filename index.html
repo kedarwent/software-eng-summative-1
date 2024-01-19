@@ -4,18 +4,33 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://googleapis.com/css?family=Public Sans">
 </head>
+    
 <body>
+    
     <div id="bg-div-1">
         <h1><b>Avo-nomics</b></h1>
     </div>
+    
     <div id="bg-div-2">
         <h2><b>How many avocado brunches would it take for you to buy the house you want?</b></h2>
         <h3>Assuming you're aiming for a 25% deposit</h3>
-        <form>
-            <label for="house-price" id="input-label">Enter the house price</label>
-            <input type="text" id="house-price" name="house-price">
-            <input type="submit" id="btn" value="Submit">
-        </form>
+        
+        <div class="container" id="input-container">
+            <form>
+                <label for="house-price" id="input-label">Enter the house price</label>
+                <br></br>
+                <input type="text" id="input-field" name="house-price">
+                <input type="submit" id="btn" value="Submit">
+            </form>
+        </div>
+
+        <div class="container" id="output-container">
+            <br></br>
+            <p id="output-field"></p>
+            <label for="output-field" id="output-label">brunches</label>
+        </div>
+        
     </div>
+    
 </body>
 </html>
