@@ -16,7 +16,7 @@
         <h3>Assuming you're aiming for a 25% deposit</h3>
         
         <div class="container" id="input-container">
-            <form>
+            <form id="input-form">
                 <label for="house-price" id="input-label">Enter the house price</label>
                 <br></br>
                 <input type="number" id="input-field" name="house-price">
@@ -33,4 +33,19 @@
     </div>
     
 </body>
+
+<script src="script.js">
+    const inputForm = document.getElementById("input-form")
+    const inputField = document.getElementById("input-field")
+    const outputField = document.getElementbyId("output-field")
+
+    inputForm.addEventListener('submit', event => {
+        let num = inputField.value;
+        let res = brunchCalc(num);
+
+        event.preventDefault();
+        outputField.innerHTML=res;
+        });
+</script>
+
 </html>
